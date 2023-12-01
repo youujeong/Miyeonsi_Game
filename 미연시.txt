@@ -1,0 +1,73 @@
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+
+        Console.WriteLine("┌──────────────────────────────────────────────────────────┐");
+        Console.WriteLine("│                                                          │");
+        Console.WriteLine("│    두근두근....                                          │");
+        Console.WriteLine("│                      게임속에 들어가 연애를 즐겨보자!    │");
+        Console.WriteLine("│                                                          │");
+        Console.WriteLine("└──────────────────────────────────────────────────────────┘");
+
+
+        Console.WriteLine("                                                          ");
+        Console.WriteLine("    게임설명");
+        Console.WriteLine("                                                          ");
+        Console.WriteLine("    당신은 게임속으로 들어가 같은 교양을 듣는 남학생을 꼬셔야 합니다.");
+        Console.WriteLine("    남학생에게 여러 대화를 나누고 데이트를 함께하며 호감도를 높여보세요!");
+        Console.WriteLine("    선택지에 따라 호감도가 달라집니다. 호감도가 20이상이면 게임 클리어");
+        Console.WriteLine("    호감도가 마이너스로 끝날시 당신은 남학생에게 차이며 휴학을 하게 됩니다.");
+
+
+
+        while (true)
+        {
+
+            int ch;
+            int heart = 1;
+            int max = 20;
+
+            Console.WriteLine("\n새로운 새학기... 당신은 교실에서 마음에 드는 남학생을 발견합니다.  어느자리에 앉으시겠습니까? ");
+            Console.WriteLine("1번:옆자리 ");
+            Console.WriteLine("2번:앞자리 ");
+            Console.WriteLine("3번:뒷자리 ");
+
+
+            string user = Console.ReadLine();
+            Console.WriteLine("내가 선택한것은?: " + user);
+
+            if (user == "1번")
+            {
+                Console.WriteLine("남학생: 아 미안.. 여기 자리있어..     (호감도 -1)");
+                heart--;
+            }
+            else if (user == "2번")
+            {
+                Console.WriteLine("남학생: (처음보는 사람이네.. 공부 잘하려나) (호감도+5");
+                heart = heart += 5;
+            }
+            else if (user == "3번")
+            {
+                Console.WriteLine("남학생:... 수업 언제 시작하지? (호감도 +1)");
+                heart++;
+            }
+
+            if (heart == 0)
+            {
+                Console.WriteLine("단신은 차였습니다... 교무처로 가 휴학을 신청하세요...");
+                break;
+            }
+            else if (heart == 20)
+            {
+                Console.WriteLine("남학생에게 고백을 받았습니다! 달콤한 CC를 즐겨보세요!");
+                break;
+            }
+        }
+    }
+}
+
+
