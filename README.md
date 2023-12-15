@@ -23,4 +23,19 @@
 스페이스를 누르면 게임이 시작됩니다.   
 
 
+-----------------------------------------------------------------
+스크린샷
+
 https://github.com/youujeong/Miyeonsi_Game/blob/main/Screenshot_20231215_095806_Gallery.jpg
+
+https://github.com/youujeong/Miyeonsi_Game/blob/main/Screenshot_20231215_095801_Gallery.jpg
+
+https://github.com/youujeong/Miyeonsi_Game/blob/main/Screenshot_20231215_095758_Gallery.jpg
+
+https://github.com/youujeong/Miyeonsi_Game/blob/main/Screenshot_20231215_095753_Gallery.jpg
+
+https://github.com/youujeong/Miyeonsi_Game/blob/main/Screenshot_20231215_095750_Gallery.jpg
+
+https://github.com/youujeong/Miyeonsi_Game/blob/main/Screenshot_20231215_095741_Gallery.jpg
+
+https://github.com/youujeong/Miyeonsi_Game/blob/main/Screenshot_20231215_095738_Gallery.jpg
