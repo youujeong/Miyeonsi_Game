@@ -21,3 +21,6 @@
 중간에 가위바위보 게임이 등장합니다. 1,2,3 ( 각 가위,바위,보) 미니게임에 승리하세요!
 게임을 종료하고 싶다면 q를 눌러주세요.
 스페이스를 누르면 게임이 시작됩니다.   
+
+
+https://github.com/youujeong/Miyeonsi_Game/blob/main/Screenshot_20231215_095806_Gallery.jpg
